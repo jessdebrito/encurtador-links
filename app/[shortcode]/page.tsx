@@ -3,7 +3,7 @@ import { redirect } from "next/navigation";
 import React from "react";
 
 interface RedirectPageProps {
-  params: { shortcode: string };
+  params: Readonly<{ shortcode: string }>;
 }
 export default async function RedirectPage({ params }: RedirectPageProps) {
   const { shortcode } = params;
