@@ -29,7 +29,7 @@ export default function RootLayout({
       >
         {children}
       </body>
-      <footer> <h1>Desenvolvido por Jéssica de Brito</h1></footer>
+    
     </html>
   );
 }

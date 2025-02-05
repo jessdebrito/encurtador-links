@@ -14,6 +14,10 @@ export default function Home() {
       </div>
 
       <ShortenerContainer />
+      <footer className="mx-auto  max-w-[90%] sm:max-w-3xl py-12 md:py-24 ">
+        <div className="space-y-2 text-center items-center ">Desenvolvido por <span className="font-bold underline text-violet-400"><a href="http://www.jessdebrito.com">Jéssica de Brito</a></span> © 2025
+      </div></footer>
     </main>
+    
   );
 }
