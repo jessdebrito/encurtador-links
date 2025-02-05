@@ -16,11 +16,10 @@ export default async function RedirectPage({ params }: RedirectPageProps) {
   }
 
   await prisma.url.update({
-    where: {
-      id: url.id,
-    },
+    where: { id: url.id },
     data: { visits: { increment: 1 } },
   });
 
   redirect(url.originalUrl);
+  return null;
 }
