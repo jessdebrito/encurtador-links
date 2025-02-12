@@ -4,17 +4,20 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-
-}
-
-html {
-  background-image: radial-gradient(at 82% 55%, rgb(243, 237, 250) 0, transparent 78%), radial-gradient(at 11% 21%, rgb(249, 241, 255) 0, transparent 94%), radial-gradient(at 38% 11%, rgb(171, 112, 247) 0, transparent 86%), radial-gradient(at 91% 23%, rgb(209, 250, 229) 0, transparent 29%), radial-gradient(at 62% 73%, rgb(199, 210, 254) 0, transparent 13%), radial-gradient(at 11% 63%, rgb(209, 250, 229) 0, transparent 5%); 
-
+  background-image: radial-gradient(
+      at 82% 55%,
+      rgb(243, 237, 250) 0,
+      transparent 78%
+    ),
+    radial-gradient(at 11% 21%, rgb(249, 241, 255) 0, transparent 94%),
+    radial-gradient(at 38% 11%, rgb(171, 112, 247) 0, transparent 86%),
+    radial-gradient(at 91% 23%, rgb(209, 250, 229) 0, transparent 29%),
+    radial-gradient(at 62% 73%, rgb(199, 210, 254) 0, transparent 13%),
+    radial-gradient(at 11% 63%, rgb(209, 250, 229) 0, transparent 5%);
 }
 
 @layer base {
   :root {
-    /* --background: 0 0% 100%; */
     --foreground: 0 0% 3.9%;
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
@@ -40,7 +43,6 @@ html {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
-
 }
 
 @layer base {
